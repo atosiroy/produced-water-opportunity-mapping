@@ -1,2 +1,32 @@
-# produced-water-opportunity-mapping
-Geospatial ML pipeline for produced water reuse opportunity mapping across US oil &amp; gas basins. 
+# Produced Water Opportunity Mapping
+
+A geospatial ML pipeline that identifies high-value produced water
+reuse deployment zones across Texas, New Mexico, California, and Alberta.
+
+## What this does
+Integrates 8+ public regulatory datasets (TX RRC, NM OCD, CA DOGGR,
+AB AER, EPA, USDA, EIA) into a reproducible spatial database, then
+applies unsupervised clustering to surface statistically validated
+county-level opportunity zones for produced water reuse.
+
+## Key outputs
+- Basin-scale supply-demand heatmap (interactive HTML)
+- Disposal stress index per county
+- Ranked opportunity zones with composite score
+
+## Tech stack
+Python · geopandas · scikit-learn · folium · pandas · contextily
+
+## How to run
+```bash
+git clone git@github.com:atosiroy/produced-water-opportunity-mapping.git
+cd produced-water-opportunity-mapping
+pip install -r requirements.txt
+jupyter notebook notebooks/01_data_pipeline.ipynb
+```
+## Data sources
+See [docs/data_dictionary.md](docs/data_dictionary.md) for full list
+of sources, access dates, and assumptions.
+
+## Licence
+MIT

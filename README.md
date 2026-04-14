@@ -4,8 +4,8 @@ A geospatial ML pipeline that identifies high-value produced water
 reuse deployment zones across Texas, New Mexico, California, and Alberta.
 
 ## What this does
-Integrates 8+ public regulatory datasets (TX RRC, NM OCD, CA DOGGR,
-AB AER, EPA, USDA, EIA) into a reproducible spatial database, then
+Integrates 8+ public regulatory datasets (TX, NM, CA,
+AB) into a reproducible spatial database, then
 applies unsupervised clustering to surface statistically validated
 county-level opportunity zones for produced water reuse.
 

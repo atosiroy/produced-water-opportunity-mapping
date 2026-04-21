@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "nm_swd_per_county",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "county": "Catron", "swd_well_count": 2 }, "geometry": { "type": "Point", "coordinates": [ -108.494463773576058, 34.52281926004985 ] } },
+{ "type": "Feature", "properties": { "county": "Chaves", "swd_well_count": 624 }, "geometry": { "type": "Point", "coordinates": [ -103.864148511885915, 33.226698929442946 ] } },
+{ "type": "Feature", "properties": { "county": "Colfax", "swd_well_count": 9 }, "geometry": { "type": "Point", "coordinates": [ -104.926208119584331, 36.909498506445821 ] } },
+{ "type": "Feature", "properties": { "county": "Eddy", "swd_well_count": 1840 }, "geometry": { "type": "Point", "coordinates": [ -104.043804407101035, 32.654236134461087 ] } },
+{ "type": "Feature", "properties": { "county": "Harding", "swd_well_count": 4 }, "geometry": { "type": "Point", "coordinates": [ -103.726770926519393, 35.839027269006614 ] } },
+{ "type": "Feature", "properties": { "county": "Lea", "swd_well_count": 4780 }, "geometry": { "type": "Point", "coordinates": [ -103.36879022056624, 32.605531399091085 ] } },
+{ "type": "Feature", "properties": { "county": "McKinley", "swd_well_count": 95 }, "geometry": { "type": "Point", "coordinates": [ -107.690347757202971, 35.771376883196062 ] } },
+{ "type": "Feature", "properties": { "county": "Quay", "swd_well_count": 1 }, "geometry": { "type": "Point", "coordinates": [ -103.641990531016404, 35.036216261516934 ] } },
+{ "type": "Feature", "properties": { "county": "Rio Arriba", "swd_well_count": 28 }, "geometry": { "type": "Point", "coordinates": [ -107.302061581077751, 36.609410972208863 ] } },
+{ "type": "Feature", "properties": { "county": "Roosevelt", "swd_well_count": 142 }, "geometry": { "type": "Point", "coordinates": [ -103.400050975501088, 33.653833949836923 ] } },
+{ "type": "Feature", "properties": { "county": "San Juan", "swd_well_count": 345 }, "geometry": { "type": "Point", "coordinates": [ -108.313966352664977, 36.712049151697826 ] } },
+{ "type": "Feature", "properties": { "county": "Sandoval", "swd_well_count": 20 }, "geometry": { "type": "Point", "coordinates": [ -107.221634663214303, 35.919145450141357 ] } },
+{ "type": "Feature", "properties": { "county": "Union", "swd_well_count": 2 }, "geometry": { "type": "Point", "coordinates": [ -103.321389983045762, 35.846719947979608 ] } }
+]
+}
